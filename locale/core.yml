@@ -119,7 +119,7 @@ core:
       appearance_button: Wygląd
       appearance_text: "Przystosuj wygląd swojego forum, poprzez zmienianie jego kolorów, logo i innych zmiennych."
       basics_button: Podstawy
-      basics_text: "Ustaw tytuł swojego forum, jego język language i inne podstawowe ustawienia."
+      basics_text: "Ustaw tytuł swojego forum, jego język i zmień inne podstawowe ustawienia."
       dashboard_button: Tablica
       dashboard_text: Twoje forum jak na dłoni.
       email_button: => core.ref.email
