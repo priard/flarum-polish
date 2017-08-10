@@ -1,0 +1,26 @@
+{
+    "name": "veriael/flarum-polish",
+    "type": "flarum-extension",
+    "description": "Polska paczka jezykowa.",
+    "homepage": "https://github.com/Veriael/flarum-polish",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Jezyk polski",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "pl",
+            "title": "Jezyk polski"
+        }
+    }
+}
