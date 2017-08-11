@@ -4,8 +4,8 @@
 
 **PL** Polska paczka językowa Flarum. Zawiera:
 
-- Tłumaczenia forum,
-- Tłumaczenia panelu administratora,
+- Wszystkie tłumaczenia forum,
+- Tłumaczenia panelu administratora (ACP),
 - Tłumaczenia wszystkich domyślnych rozszerzeń dostarczanych wraz z instalacją Flarum.
 
 **EN** Polish language pack for Flarum. Contains:
