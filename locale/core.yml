@@ -327,7 +327,7 @@ core:
       now_link: Teraz
       original_post_link: Oryginalny post
       unread_text: "{count} nieprzeczytanych"
-      viewing_text: "{index} z {count} postu|{index} z {count} postów"
+      viewing_text: "Post: {index} z {count}|Post: {index} z {count}"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
