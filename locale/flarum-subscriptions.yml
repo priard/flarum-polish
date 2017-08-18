@@ -50,5 +50,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: Obserwuj
-    following: Obserwujesz
+    following:Obserwujesz
     ignoring: Ignorujesz
