@@ -117,7 +117,7 @@ core:
     # These translations are used in the navigation bar.
     nav:
       appearance_button: Wygląd
-      appearance_text: "Przystosuj wygląd swojego forum, poprzez zmienianie jego kolorów, logo i innych zmiennych."
+      appearance_text: "Przystosuj wygląd swojego forum, poprzez dobranie jego kolorów, logo i innych zmiennych."
       basics_button: Podstawy
       basics_text: "Ustaw tytuł swojego forum, jego język i zmień inne podstawowe ustawienia."
       dashboard_button: Tablica
@@ -325,7 +325,7 @@ core:
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Teraz
-      original_post_link: Oryginalny post
+      original_post_link: Początek dyskusji
       unread_text: "{count} nieprzeczytanych"
       viewing_text: "Post: {index} z {count}|Post: {index} z {count}"
 
@@ -388,9 +388,9 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Sterowanie
+      button: Opcje
       delete_button: => core.ref.delete
-      delete_confirmation: "Jesteś pewny, że chcesz usunąć tego użytkownika? Wszystkie jego posty zostaną usunięte."
+      delete_confirmation: "Jesteś pewny, że chcesz usunąć tego użytkownika? Wszystkie jego posty także zostaną usunięte."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
