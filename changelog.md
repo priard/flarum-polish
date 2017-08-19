@@ -1,3 +1,5 @@
+- 1.0.5
+  - Dodano kilka nowych tłumaczeń.
 - 1.0.4
   - Usunięto kilka błędów i poprawiono nienaturalne tłumaczenia.
 - 1.0.3
