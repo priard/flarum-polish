@@ -27,26 +27,26 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Zarządzaj listą tagów, którymi możesz opisywać dyskusje.
+      tags_text: Manage the list of tags available to organise discussions with.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Zezwalaj na edytowanie tagów
-      restrict_by_tag_heading: Rozgraniczaj za pomocą tagów
-      tag_discussions_label: Taguj dyskusje
+      allow_edit_tags_label: Allow tag editing
+      restrict_by_tag_heading: Restrict by Tag
+      tag_discussions_label: Tag discussions
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " do "
-      required_primary_heading: Wymagana liczba głównych tagów
-      required_primary_text: Wprowadź minimalną i maksymalną ilość głównych tagów, którymi może zostać opisana dyskusja.
-      required_secondary_heading: Wymagana liczba pobocznych tagów
-      required_secondary_text: Wprowadź minimalną i maksymalną ilość pobocznych tagów, którymi może zostać opisana dyskusja.
-      title: Ustawienia tagów
+      range_separator_text: " to "
+      required_primary_heading: Required Number of Primary Tags
+      required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
+      required_secondary_heading: Required Number of Secondary Tags
+      required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
+      title: Tag Settings
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
+      about_tags_text: "Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii, ani porządku, są więc użyteczne bardziej do mikroorganizacji."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Główne tagi
       secondary_heading: Poboczne tagi
