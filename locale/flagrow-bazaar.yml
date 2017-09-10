@@ -1,0 +1,85 @@
+flagrow-bazaar:
+    admin:
+        loader:
+            is_loading: Przetwarzanie..
+            error: Wystąpił błąd. Sprawdź zakładkę historii i logi twojego Flarum po więcej szczegółów. Nie bój się nam to zgłosić.
+            refresh: Odśwież stronę
+            report_issue: Zgłoś problem
+        nav:
+            title: Bazaar
+            description: Sklep z rozszerzeniami.
+        header:
+            extensions: Przeglądaj rozszerzenia
+            tasks: Historia zadań
+        modal:
+            settings:
+                title: Flagrow Bazaar
+                field:
+                    apiToken: API token
+                    apiTokenDescription: Ten api token jest wymagany, aby korzystać z Flagrow extension api. Jeśli jest już ustawiony, to przejdźmy dalej!
+            connect-bazaar:
+                title: Połącz
+                description: >
+                    Połącz swoją społeczność Flarum do twojego osobistego konta na {host}, aby odblokować zaawansowane funkcje; łącznie
+                    z tablicą, która daje ci łatwy wgląd w twoje wszystkie połączone instalacje Flarum. Dodamy
+                    więcej funkcjonalności, takich jak powiadomienia, gdy twoje forum zawiera przestarzałe rozszerzenia, lub możliwość
+                    aktualizacji wszystkich instalacji Flarum za jednym razem.
+            requirements:
+                file-permissions:
+                    title: Uprawnienia plików
+                    description: >
+                        Wygląda na to, że Bazaar ma niedostateczne uprawnienia aby pisać pliki
+                        i/lub katalogi, przejrzyj proszę listę poniżej. Dla dokładniejszych
+                        informacji, przejrzyj <a>wiki</a>.
+                php-memory_limit:
+                    title: Limit pamięci
+                    description: >
+                        Zalecamy, aby PHP mogło używać przynajmniej {required} pamięci, a twój php.ini aktualnie zezwala na {limit}.
+                        Mimo, że próbujemy automatycznie zwiększyć limit pamięci podczas startu, powodzenie zależy od twojego hosta.
+                        Dla dokładniejszych informacji, przejrzyj <a>wiki</a>.
+        page:
+            button:
+                more: Więcej
+                install: Instaluj
+                uninstall: Odinstaluj
+                enable: Włącz
+                disable: Wyłącz
+                update: Aktualizuj
+                connect: Połącz
+                favorite_button: "Ulubione rozszerzenie"
+                remove_favorite_button: "Usuń rozszerzenie ze swoich ulubionych"
+            extension:
+                installed: Rozszerzenie jest zainstalowane
+                enabled: Rozszerzenie jest włączone
+                vendor: Autorstwa {vendor}
+                favorited: Jedno z twoich ulubionych
+                outdated: "Rozszerzenie jest przestarzałe, zaktualizuj je proszę do wersji {new}"
+            task:
+                header:
+                    status: Status
+                    command: Komenda
+                    output: Odpowiedź
+                    time: Czas
+                    details: Szczegóły
+                attribute:
+                    created_at: Stworzono
+                    started_at: Rozpoczęto
+                    finished_at: Skończono
+                status:
+                    success: Powodzenie
+                    exception: Wystąpił wyjątek
+                    working: Praca w toku
+                    unknown: Nieznany
+                command:
+                    install: Zainstaluj {extension}
+                    update: Aktualizuj {extension}
+                    uninstall: Odinstaluj {extension}
+                group:
+                    today: Dzisiaj
+                    lastmonth: Ostatni miesiąc
+                    older: Starsze
+        search:
+            placeholder: Szukaj rozszerzeń
+            filter_installed: Pokazuj tylko zainstalowane rozszerzenia
+            filter_update_required: Pokazuj tylko rozszerzenia, dla których są dostępne aktualizacje
+            filter_favorited: Pokazuj tylko ulubione rozszerzenia

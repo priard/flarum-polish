@@ -1,0 +1,45 @@
+flagrow-masquerade:
+    forum:
+        alerts:
+            profile-completion-required: >
+                Uzupełnij proszę niezbędne pola profilu poniżej.
+        buttons:
+            view-profile: Pokaż profil
+            configure-profile: Konfiguruj profil
+            save-profile: Zapisz
+    admin:
+        buttons:
+            add-field: Dodaj pole
+            edit-field: Edytuj pole
+            delete-field: Usuń pole
+        permissions:
+            have-profile: Posiadaj profil Masquerade
+            view-profile: Przeglądaj profile Masquerade
+        menu:
+            description: >
+                Konfiguruj pola profili Masquerade.
+        fields:
+            add: Dodaj pole {field}
+            edit: Edytuj pole {field}
+            name: Nazwa pola
+            name-help: >
+                Publicznie widoczna (nieprzetłumaczalna) etykieta pola.
+            description: Opis pola
+            description-help: >
+                Opcjonalny opis, aby wytłumaczyć użycie/powód dla tego pola.
+            required: Oznacz pole jako obowiązkowe
+            on_bio: Pokazuj odpowiedź na to pole w biografii użytkownika
+            validation: Validation
+            validation-help: >
+                Check the supported <a>Laravel validation rules</a>. Eg:
+                "string,min:5" or "url".
+            prefix: Przedrostek pola
+            prefix-help: >
+                Pokazuje przedrostek przed wartością wprowadzaną do tego pola przez użytkowników.
+            icon: Ikona
+            icon-help: >
+                Pokazuje ikonę przed wartościami wpisanymi przez użytkownika. Dostępne ikony
+                możesz przejrzeć na <a>stronie FontAwesome</a>. Używaj dla przykładu "info" bez
+                przedrostka "fa-".
+            force-user-to-completion: Zmuś użytkowników do uzupełnienia profilu
+            disable-user-bio: Wyłącz pole biografii użytkownika

@@ -1,0 +1,36 @@
+reflar-reactions:
+  forum:
+    warning: Twoja reakcja została przekonwertowana
+    notification: '{username} zareagował {reaction} na twój post'
+
+  admin:
+    permissions:
+        react_posts_label: Reaguj na posty
+  
+    nav:
+      desc: Dodaj niestandardowe reakcje i dostosuj ustawienia.
+
+    page:
+      reactions:
+        title: Niestandardowe reakcje
+        reactions: Obecne reakcje
+        Helptext: Wprowadź nazwę (identyfikator) emoji, lub ikony font-awesome i wybierz, który typ ci odpowiada.
+        help:
+          identifier: Identyfikator
+
+      settings:
+        save_settings: Zapisz ustawienia
+        integrations:
+          legend: Integracje
+          warning: Ta sama reakcja <strong>nie może</strong> być przekonwertowana do polubienia <strong>i</strong> +1.
+          gamification:
+            legend: Gamification
+            upvoteLabel: Przekonwertuj reakcje do +1
+            upvoteHelptext: Wprowadź identyfikatory reakcji, które chciałbyś automatycznie konwertować do +1
+            downvoteLabel: Konwertuj reakcje do -1
+            downvoteHelptext: Wprowadź identyfikatory reakcji, które chciałbyś automatycznie konwertować do -1
+
+          likes:
+            legend: Polubienia
+            Label: Konwertuj reakcje do polubień
+            Helptext: Wprowadź identyfikatory reakcji, które chciałbyś automatycznie konwertować do polubień
