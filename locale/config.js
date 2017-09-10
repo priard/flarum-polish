@@ -7,7 +7,7 @@ function processRelativeTime(number, withoutSuffix, key, isFuture) {
     'm': ['jedna minuta', 'jedną minutę'],
     'h': ['jedna godzina', 'jedną godzinę'],
     'd': ['jeden dzień', 'jeden dzień'],
-    'dd': [number + ' dzień', number + ' dni'],
+    'dd': [number + ' dni', number + ' dni'],
     'M': ['jeden miesiąc', 'jeden miesiąc'],
     'MM': [number + ' miesiąc', number + ' miesięcy'],
     'y': ['jeden rok', 'jeden rok'],

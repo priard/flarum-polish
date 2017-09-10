@@ -1,0 +1,26 @@
+flagrow-users-list:
+  admin:
+    nav:
+      users_button: => flagrow-users-list.ref.users_title
+      users_text: Zobacz listę użytkowników.
+    page:
+      about_text:  Zobacz listę zarejestrowanych użytkowników.
+      online_text: => core.forum.user.online_text
+      load_more_button: => core.ref.load_more
+      list_title: => flagrow-users-list.ref.users_title
+      mail_all_button: Wyślij wiadomość do wszystkich użytkowników.
+    modal_mail:
+      title_text: Wiadomość do
+      title_all_text: wszyscy użytkownicy
+      email_label: Do
+      subject_label: Temat
+      default_subject: => flagrow-users-list.ref.default_subject
+      message_label: Wiadomość
+      submit_button: Wyślij
+
+  email:
+    default_subject: => flagrow-users-list.ref.default_subject
+
+  ref:
+    default_subject: Wiadomość od administracji
+    users_title: Użytkownicy

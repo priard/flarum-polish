@@ -46,7 +46,7 @@ flarum-tags:
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii, ani porządku, są więc użyteczne bardziej do mikroorganizacji."
+      about_tags_text: "Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii ani porządku, są więc użyteczne bardziej do mikroorganizacji."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Główne tagi
       secondary_heading: Poboczne tagi

@@ -1,0 +1,68 @@
+core:
+  forum:
+    index_sort:
+      hot_button: Zyskujące popularność
+      
+reflar-gamification:
+  forum:
+    vote_title: Pokaż, kto głosował
+    nav:
+      name: Ranking
+    ranking:
+      rank: Miejsce
+      name: Użytkownik
+      amount: Punkty
+    notification:
+      upvote: Ktoś dał +1 twojemu postowi
+      downvote: Ktoś dał -1 twojemu postowi
+      grid:
+        upvoted: Ktoś dał +1 jednemu z moich postów
+        downvoted: Ktoś dał -1 jednemu z moich postów
+    user:
+      points: "Punkty: {points}"
+      rank: "{rank}"
+    modal:
+      title: Głosy
+      upvotes_label: Dał +1
+      downvotes_label: Dał -1
+  admin:
+    permissions:
+      vote_label: Dawaj +1/-1 postom
+      see_votes_label: Miej wgląd w +1/-1 dane postom
+    nav:
+      desc: Gamification dla twojej społeczności Flarum
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: Ignorowani użytkownicy
+          help: Ci użytkownicy nie będą wyświetlani w rankingu. Ich nazwy powinny być rozdzielone przecinkiem, po którym następuje spacja.
+        title: Strona rankingu
+        enable: Włącz niestandardowe obrazki
+        custom_image_1: Miejsce 1
+        custom_image_2: Miejsce 2
+        custom_image_3: Miejsce 3
+      votes:
+        points_title: Rubryka punktów
+        points_placeholder: "Punkty: "
+        color_holder: '#ffffff'
+        auto_upvote: Automatycznie dawaj +1 postom przy ich publikacji
+        title: Głosy
+        vote_color: Voted color
+        icon_name: Ikona +1/-1
+        icon_help: "Wprowadź jakąkolwiek ikonę FontAwesome, która posiada parametry -up i -down. Przykłady: arrow, thumbs, chevron"
+      save_settings: Zapisz ustawienia
+      convert:
+        button: Konwertuj polubienia do +1.
+        help: Konwertuj swoje poprzednie polubienia z flarum-ext-likes do +1, tak samo oblicz popularność wszystkich obecnych dyskusji.
+        converting: Twoje polubienia właśnie są konwertowane. Odśwież swoją stronę za kilka minut, aby zobaczyć ukończony proces. (Może to zająć nawet krótką chwilę - wszystko zależy od liczby polubień na twoim forum)
+        converted: "Pomyślnie przekonwertowano wszystkie ({number}) polubienia"
+      ranks:
+        title: Rangi
+        ranks: Niestandardowe rangi
+        number_title: Jak wiele odznak rang powinno być wyświetlanych?
+        help:
+          color: '#ffffff'
+          help: "Wprowadź wymaganą liczbę +1, nazwę rangi, oraz jej kolor HEX"
+          points: Punkty
+          name: Nazwa

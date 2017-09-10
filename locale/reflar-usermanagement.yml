@@ -1,0 +1,69 @@
+reflar-usermanagement:
+  admin:
+    strike_perm_item: Ostrzeż
+    activate_perm_item: Manualnie aktywuj użytkowników
+    viewstrike_perm_item: Zobacz ostrzeżenia użytkownika
+    nav:
+      title: Lista użytkowników
+      desc: Przeglądaj i zarządzaj użytkownikami
+    modal:
+      view:
+        number: Numer
+        no_strikes: Użytkownik jest czysty!
+        content: Post
+        actor: Aktor
+        time: Czas
+        reason: Powód
+        link: Link
+        remove: Usuń
+        title : "Ostrzeżenia {username}"
+      settings_title: Ustawienia
+      email_switch: Wyłącz rejestrowanie e-maila
+      gender_label: Włącz rejestrowanie płci
+      age_label: Włącz rejestrowanie wieku
+      amount_label: Liczba użytkowników do pokazania na stronie
+      recaptcha: Włącz kompatybilność z recaptcha
+      spam: Włącz ochronę StopForumSpam
+    page: 
+      activate: Aktywuj
+      online_text: Online
+      settings: Ustawienia
+      list_title: Użytkownicy
+      load_more_button: Załaduj więcej
+      about_text: "Twoi użytkownicy jak na dłoni. Kliknij na oko, aby zobaczyć profil użytkownika. Kliknij '!', aby ujrzeć nadane mu ostrzeżenia."
+  forum:
+    post_controls:
+      strike_button: Ostrzeż
+    signup:
+      age: Wiek
+      gender: Płeć
+      male: Mężczyzna
+      female: Kobieta
+      other: Inna
+    user:
+      settings:
+        button: Wiek i płeć
+        title: Ustaw swój wiek i płeć
+        save: Zapisz
+        success: Pomyślnie zapisano.
+      age: "Wiek: {age} lat(a)"
+      controls:
+        strike_button: Zobacz ostrzeżenia
+        activate_button: Aktywuj użytkownika
+        modal: "Ostrzeżenia użytkownika {username}"
+        previous: "Ostatnie ostrzeżenia użytkownika {username}"
+    modal:
+      post:
+        title: Ostrzeż użytkownika: {username}
+        reason_placeholder: Treść ostrzeżenia
+        strike_reason: Powód
+        submit_button: Ostrzeż
+      view:
+        number: Numer
+        no_strikes: Użytkownik jest czysty!
+        content: Post
+        actor: Aktor
+        time: Czas
+        reason: Powód
+        link: Link
+        remove: Usuń
