@@ -1,3 +1,5 @@
+- 1.0.6
+  - Usunięto kilka błędów, dodano kilka tłumaczeń zewnętrznych rozszerzeń Flarum.
 - 1.0.5
   - Dodano kilka nowych tłumaczeń.
 - 1.0.4
