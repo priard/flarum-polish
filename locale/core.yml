@@ -467,12 +467,12 @@ core:
       body: |
         Witaj, {username}!
 
-        Ktoś (mamy nadzieję, że ty!) zarejestrował się na {forum} używając tego adresu e-mail.
+        Ktoś (mamy nadzieję, że ty) zarejestrował się na "{forum}" używając tego adresu e-mail.
 
         Jeśli byłeś to ty, po prostu kliknij ten link i twoje konto zostanie aktywowane:
         {url}
 
-        Jeśli się nie rejestrowałeś, zignoruj proszę ten e-mail.
+        Jeśli się nie rejestrowałeś, zignoruj tą wiadomość.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
@@ -480,12 +480,12 @@ core:
       body: |
         Witaj, {username}!
 
-        Ktoś (mamy nadzieję, że ty!) zmienił swój adres e-mail na {forum} na ten.
+        Ktoś (mamy nadzieję, że ty) zmienił swój adres e-mail na "{forum}" na ten.
 
         Jeśli byłeś to ty, po prostu kliknij ten link, a twój e-mail zostanie zatwierdzony:
         {url}
 
-        Jeśli to nie ty, zignoruj proszę ten e-mail.
+        Jeśli to nie ty, zignoruj tą wiadomość.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -493,7 +493,7 @@ core:
       body: |
         Witaj, {username}!
 
-        Ktoś (mamy nadzieję, że ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.
+        Ktoś (mamy nadzieję, że ty) poprosił o zresetowanie hasła do swojego konta na "{forum}".
 
         Jeśli byłeś to ty, kliknij ten link, aby zresetować swoje hasło:
         {url}
